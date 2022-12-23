@@ -35,7 +35,7 @@ spec:
   gitOpsRef:
     kind: FluxConfig
     name: eksa-test
-  kubernetesVersion: "1.23"
+  kubernetesVersion: "1.24"
   managementCluster:
     name: main-i-06871-426058e
   workerNodeGroupConfigurations:
@@ -74,7 +74,7 @@ spec:
   numCPUs: 2
   osFamily: ubuntu
   resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/Compute-ResourcePool
-  template: /SDDC-Datacenter/vm/Templates/kubernetes-1-23-eks-10-ubuntu
+  template: /SDDC-Datacenter/vm/Templates/kubernetes-1-24-eks-5-ubuntu
   users:
   - name: ec2-user
     sshAuthorizedKeys:
@@ -95,7 +95,7 @@ spec:
   numCPUs: 2
   osFamily: ubuntu
   resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/Compute-ResourcePool
-  template: /SDDC-Datacenter/vm/Templates/kubernetes-1-23-eks-10-ubuntu
+  template: /SDDC-Datacenter/vm/Templates/kubernetes-1-24-eks-5-ubuntu
   users:
   - name: ec2-user
     sshAuthorizedKeys:
@@ -118,7 +118,7 @@ spec:
   numCPUs: 2
   osFamily: ubuntu
   resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/Compute-ResourcePool
-  template: /SDDC-Datacenter/vm/Templates/kubernetes-1-23-eks-10-ubuntu
+  template: /SDDC-Datacenter/vm/Templates/kubernetes-1-24-eks-5-ubuntu
   users:
   - name: ec2-user
     sshAuthorizedKeys:
